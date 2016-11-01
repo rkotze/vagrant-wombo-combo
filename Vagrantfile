@@ -17,7 +17,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "docker"
   config.vm.provision "docker_compose"
 
-  config.vm.define "elixir_box" do |elixir_box|
+  config.vm.define "wombo_combo_box" do |elixir_box|
     elixir_box.vm.provider "virtualbox" do |v|
       v.name = VM_NAME
       v.customize ["modifyvm", :id, "--memory", MEMORY_SIZE_MB]

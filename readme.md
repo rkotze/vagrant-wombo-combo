@@ -24,3 +24,11 @@ Update the private ip.
 1. docker-compose
 1. Elixir
 1. Node
+
+## Useful commands
+
+`vagrant up` - start the machine and provision if first boot up
+`vagrant ssh` - access the machine
+`vagrant reload` - restart the machine
+`vagrant reload --provision` - force install on new provisions added to `VagrantFile`
+`vagrant suspend` - saves the exact point-in-time state of the machine for quicker resume.
