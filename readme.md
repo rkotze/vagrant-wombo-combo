@@ -12,7 +12,7 @@
 1. Open terminal wher the `Vagrantfile` is and run `vagrant up` to setup your new vm.
 1. When finished installing: run `vagrant ssh` to login to your machine
 1. Navigate to `cd /vagrant` this will give you access to your project folders and files.
-1. Then this virtual world is your oyster
+1. This virtual world is now your oyster
 
 Update the vagrant forwarding ports.
 
@@ -20,8 +20,8 @@ Update the private ip.
 
 ## What in box
 
-1. docker
-1. docker-compose
+1. Docker
+1. Docker-compose
 1. Elixir
 1. Node
 

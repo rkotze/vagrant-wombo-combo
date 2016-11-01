@@ -46,6 +46,7 @@ curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | sudo -E bash -
 apt-get install -y \
 nodejs
 
+# usher orchestration of different command line applications into a single configuration file
 npm install usher-cli -g
 
 # Install imagemagick
