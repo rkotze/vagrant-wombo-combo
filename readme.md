@@ -1,7 +1,5 @@
 # Vagrant: Wombo Combo
 
-## Docker, Elixir and NodeJS
-
 ## Getting started
 
 1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
@@ -9,16 +7,14 @@
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html)
 1. Install docker compose plugin `vagrant plugin install vagrant-docker-compose`
 1. Copy `vagrant_provision.sh` and `Vagrantfile` one level above the project folder. (You can make it part of the project as well, to share the setup between dev teams)
-1. Open terminal wher the `Vagrantfile` is and run `vagrant up` to setup your new vm.
+1. Open terminal where the `Vagrantfile` is and run `vagrant up` to setup your new vm.
 1. When finished installing: run `vagrant ssh` to login to your machine
 1. Navigate to `cd /vagrant` this will give you access to your project folders and files.
 1. This virtual world is now your oyster
 
-Update the vagrant forwarding ports.
+**Feel free to customise the `VagrantFile` and `vagrant_provision.sh` to fit your project.**
 
-Update the private ip.
-
-## What in box
+## What's in the box
 
 1. Docker
 1. Docker-compose
