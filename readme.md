@@ -1,5 +1,7 @@
 # Vagrant: Wombo Combo
 
+If you like your windows dev setup and need to work in both windows and linux environments. This could be the setup for you. ;)
+
 ## Getting started
 
 1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
@@ -16,6 +18,7 @@
 
 ## What's in the box
 
+1. ubuntu/xenial64
 1. Docker
 1. Docker-compose
 1. Elixir
