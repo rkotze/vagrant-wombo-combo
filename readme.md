@@ -4,7 +4,6 @@ If you like your windows dev setup and need to work in both windows and linux en
 
 ## Getting started
 
-1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html)
 1. Install docker compose plugin `vagrant plugin install vagrant-docker-compose`
